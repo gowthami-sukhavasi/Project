@@ -5,7 +5,9 @@
   "homepage": "https://www.gowthami-sukhavasi.github.io/Project",
   "scripts": {
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
