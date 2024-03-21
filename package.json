@@ -2,6 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://www.gowthami-sukhavasi.github.io/Project",
   "scripts": {
     "predeploy": "npm run build",
 "deploy": "gh-pages -d dist",
